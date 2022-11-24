@@ -30,7 +30,7 @@ collections_dir: 'collections'
 collections:
   pages:
     output: true
-    permalink: /:title/
+    permalink: https://zicoabhidey.github.io/test
   projects:
     output: true
     permalink: /project/:slug
@@ -74,9 +74,9 @@ defaults:
       layout: default
   - scope:
       type: pages
-      path: _pages/index.html
+      path: https://zicoabhidey.github.io/test
     values:
-      permalink: /
+      permalink: https://zicoabhidey.github.io/test
   - scope:
       type: projects
     values:
